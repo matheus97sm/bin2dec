@@ -28,7 +28,7 @@ export default class Home extends Component {
         return +soma + 2 ** index * v;
       });
 
-    this.setState({
+    return this.setState({
       decimalNumber: totalValue,
       correct: 'true',
     });
